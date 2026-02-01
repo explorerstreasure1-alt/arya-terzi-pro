@@ -1,0 +1,17 @@
+{
+  "name": "arya-terzi-pro",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend",
+    "shared"
+  ],
+"scripts": {
+  "dev": "npm --prefix backend run dev & npm --prefix frontend run dev",
+  "build": "npm --prefix backend run build && npm --prefix frontend run build",
+  "lint": "npm --prefix backend run lint && npm --prefix frontend run lint"
+}
+  }
+}
+
+
